@@ -8,7 +8,7 @@ plugins {
 
 
 android {
-    namespace = "br.com.fiap.alunoresponsvel_rm94532"
+    namespace = "br.com.fiap.alunoresponsvel_rm93194"
     compileSdk = 34
 
     viewBinding {
@@ -18,7 +18,7 @@ android {
         dataBinding = true
     }
     defaultConfig {
-        applicationId = "br.com.fiap.alunoresponsvel_rm94532"
+        applicationId = "br.com.fiap.alunoresponsvel_rm93194"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -76,8 +76,6 @@ dependencies {
     implementation(libs.androidx.material3)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
-    androidTestImplementation(platform(libs.androidx.compose.bom))
-    androidTestImplementation(libs.androidx.ui.test.junit4)
+
 
 }
