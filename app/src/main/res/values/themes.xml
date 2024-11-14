@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Brcomfiapalunoresponsavel_Rm93194" parent="android:Theme.Material.Light.NoActionBar" />
+    <resources>
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="colorPrimary">@color/ocean_blue</item> <!-- #4A90E2 -->
+            <item name="colorPrimaryDark">@color/forest_green</item> <!-- #2E8B57 -->
+            <item name="colorAccent">@color/sunset_orange</item> <!-- #FF6F61 -->
+            <item name="android:windowBackground">@color/cloud_white</item> <!-- #F5F5F5 -->
+            <item name="android:textColor">@color/midnight_black</item> <!-- #2C2C2C -->
+        </style>
+
+        <style name="CustomSearchView" parent="Widget.AppCompat.SearchView">
+            <item name="android:textColorHint">@color/deep_gray</item> <!-- #4B4B4B -->
+        </style>
+    </resources>
+
+</resources>
